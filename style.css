@@ -205,7 +205,7 @@ header {
   background-color: #fff;
   position: fixed;
   top: 0;
-  right: -20rem;
+  right: -25rem;
   transition: all 1s;
   z-index: 99;
 }
@@ -584,6 +584,14 @@ footer {
   header {
     width: 100vw;
     height: 100vh;
+  }
+
+  .hamburguer {
+    right: 5rem;
+  }
+
+  #link-topo {
+    right: 3rem;
   }
 
   .banner {
