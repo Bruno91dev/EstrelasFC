@@ -578,7 +578,6 @@ footer {
   border-radius: 0.3rem;
   box-shadow: 0 0.1rem 0.6rem #00000009;
   margin-bottom: -2.2rem;
-  margin-right: -3rem;
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
