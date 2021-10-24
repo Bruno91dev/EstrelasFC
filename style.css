@@ -726,7 +726,7 @@ footer {
     height: 10rem;
     margin-top: -13rem;
     position: relative;
-    left: 14rem;
+    left: 9rem;
     display: flex;
     visibility: hidden;
   }
@@ -736,7 +736,7 @@ footer {
     height: 10rem;
     margin-top: -9rem;
     position: relative;
-    left: 14rem;
+    left: 10rem;
     display: flex;
     visibility: hidden;
     padding-bottom: -2rem;
