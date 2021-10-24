@@ -611,18 +611,13 @@ footer {
     width: 100vw;
   }
 
-  .story-text {
-    padding-bottom: 5rem;
-  }
-
   .sessao-events {
     height: 100rem;
     width: 100vw;
   }
 
   .events {
-    width: 100%;
-
+    width: 100vw;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4);
     display: grid;
@@ -632,50 +627,17 @@ footer {
     width: 100vw;
     height: 25rem;
     grid-column: 2/3;
+    object-fit: center;
   }
   .card:nth-child(2) {
     width: 100vw;
     height: 25rem;
     grid-column: 2/3;
-    padding: 0;
   }
   .card:nth-child(3) {
     width: 100vw;
     height: 25rem;
     grid-column: 2/3;
-    padding: 0;
-  }
-  .card-info {
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    visibility: hidden;
-    margin-top: 1rem;
-    padding-left: 1.5rem;
-    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.4);
-    transition: all 0.3s;
-  }
-
-  .card-info h2 {
-    font-family: var(--font-primary);
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2.3rem;
-    color: rgb(248, 248, 248);
-  }
-
-  .card-info h3 {
-    font-family: var(--font-action);
-    font-weight: bolder;
-    margin-bottom: 1.5rem;
-  }
-
-  .card-info p {
-    font-family: var(--font-secondary);
-    color: #eee;
-    font-weight: 500;
-    width: 80%;
-    margin-bottom: 1rem;
   }
 
   .card-info {
@@ -687,16 +649,6 @@ footer {
     height: 100rem;
   }
 
-  .titles-left {
-    display: none;
-  }
-
-  .titles-right {
-    width: 100%;
-    background-color: #eee;
-    padding: 1rem 3rem 3rem 3rem;
-    border-radius: 2%;
-  }
   .sessao-directorate {
     width: 100vw;
     height: 100%;
@@ -723,7 +675,7 @@ footer {
     height: 10rem;
     margin-top: -13rem;
     position: relative;
-    left: 9rem;
+    left: 8rem;
     display: flex;
     visibility: hidden;
   }
@@ -733,7 +685,7 @@ footer {
     height: 10rem;
     margin-top: -9rem;
     position: relative;
-    left: 10rem;
+    left: 9.3rem;
     display: flex;
     visibility: hidden;
     padding-bottom: -2rem;
@@ -747,7 +699,7 @@ footer {
     width: 100vw;
   }
   .footer-content {
-    width: 90%;
+    width: 100vw;
   }
 
   .social-list a {
