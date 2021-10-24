@@ -640,8 +640,16 @@ footer {
     grid-column: 2/3;
   }
 
+  .card {
+    position: relative;
+  }
+
   .card-info {
     font-size: 1.4rem;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0;
+    top: 0;
   }
 
   .sessao-titles {
