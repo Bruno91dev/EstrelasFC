@@ -262,11 +262,11 @@ header {
   background-color: #3060fd;
 }
 
-.historia {
+.story {
   height: 100%;
 }
 
-.sessao-historia {
+.sessao-story {
   background-color: #051839;
 }
 
@@ -285,23 +285,23 @@ header {
   padding-top: 4rem;
 }
 
-.historia-header {
+.story-header {
   display: flex;
   align-items: center;
   color: #3060fd;
 }
 
-.historia-header i {
+.story-header i {
   font-size: 2.5rem;
 }
 
-.historia-header h3 {
+.story-header h3 {
   font-family: var(--font-secundary);
   font-size: 2rem;
   padding-left: 1rem;
 }
 
-.historia-text {
+.story-text {
   font-family: var(--font-secundary);
   margin-top: 6rem;
   margin-left: 1rem;
@@ -313,12 +313,12 @@ header {
   padding-bottom: 5rem;
 }
 
-.confrat {
+.events {
   display: flex;
   justify-content: space-evenly;
 }
 
-.sessao-confrat {
+.sessao-events {
   width: 100%;
   height: 100%;
   background-color: #003c97;
@@ -412,7 +412,7 @@ header {
   visibility: visible;
 }
 
-.sessao-titulos {
+.sessao-titles {
   width: 100%;
   height: 100%;
   background-color: #051839;
@@ -421,11 +421,11 @@ header {
   padding-bottom: 4rem;
 }
 
-.confrat-wrapper {
+.events-wrapper {
   width: 60%;
 }
 
-.sessao-diretoria {
+.sessao-directorate {
   width: 100%;
   height: 100%;
   background-color: #003c97;
@@ -437,7 +437,7 @@ header {
   padding-top: 8rem;
 }
 
-.diretoria-wrapper {
+.directorate-wrapper {
   width: 60%;
   height: 80%;
   background-color: #3060fd;
@@ -448,7 +448,7 @@ header {
   opacity: 0.9;
 }
 
-.sessao-diretoria h1 {
+.sessao-directorate h1 {
   position: absolute;
   top: -2.5rem;
   left: 2rem;
@@ -465,11 +465,11 @@ header {
   position: relative;
 }
 
-#logo-diretoria {
+#logo-directorate {
   position: absolute;
 }
 
-.imgDiretoria {
+.imgdirectorate {
   width: 10rem;
   height: 10rem;
   margin-top: -8rem;
@@ -479,7 +479,7 @@ header {
   visibility: hidden;
 }
 
-.imgDiretoria2 {
+.imgdirectorate2 {
   width: 10rem;
   height: 10rem;
   margin-top: -5rem;
@@ -507,7 +507,7 @@ h4 {
   font-family: var(--font-primary);
 }
 
-h4:hover .imgDiretoria {
+h4:hover .imgdirectorate {
   cursor: pointer;
   visibility: visible;
 }
@@ -522,7 +522,7 @@ h5 {
   position: relative;
 }
 
-h5:hover .imgDiretoria2 {
+h5:hover .imgdirectorate2 {
   cursor: pointer;
   visibility: visible;
 }
@@ -586,6 +586,11 @@ footer {
     height: 100vh;
   }
 
+  .sessao-header h1 {
+    width: 70vw;
+    text-align: center;
+  }
+
   .banner {
     left: 5%;
     top: 60%;
@@ -601,21 +606,21 @@ footer {
     height: 100%;
   }
 
-  .sessao-historia {
+  .sessao-story {
     height: 100%;
     width: 100vw;
   }
 
-  .historia-text {
+  .story-text {
     padding-bottom: 5rem;
   }
 
-  .sessao-confrat {
+  .sessao-events {
     height: 100rem;
     width: 100vw;
   }
 
-  .confrat {
+  .events {
     width: 100%;
 
     grid-template-columns: repeat(3, 1fr);
@@ -677,43 +682,43 @@ footer {
     font-size: 1.4rem;
   }
 
-  .sessao-titulos {
+  .sessao-titles {
     width: 100vw;
     height: 100rem;
   }
 
-  .titulos-left {
+  .titles-left {
     display: none;
   }
 
-  .titulos-right {
+  .titles-right {
     width: 100%;
     background-color: #eee;
     padding: 1rem 3rem 3rem 3rem;
     border-radius: 2%;
   }
-  .sessao-diretoria {
+  .sessao-directorate {
     width: 100vw;
     height: 100%;
     position: relative;
   }
 
-  #logo-diretoria {
+  #logo-directorate {
     position: absolute;
   }
 
-  .diretoria-wrapper {
+  .directorate-wrapper {
     width: 90%;
     height: 100%;
   }
 
-  .sessao-diretoria h1 {
+  .sessao-directorate h1 {
     font-size: 2.3rem;
     width: 13.5rem;
     margin-left: -1rem;
   }
 
-  .imgDiretoria {
+  .imgdirectorate {
     width: 10rem;
     height: 10rem;
     margin-top: -13rem;
@@ -723,7 +728,7 @@ footer {
     visibility: hidden;
   }
 
-  .imgDiretoria2 {
+  .imgdirectorate2 {
     width: 10rem;
     height: 10rem;
     margin-top: -9rem;
